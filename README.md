@@ -14,3 +14,14 @@ View a description of a Secret
 
 kubectl describe secrets/mysecret
 
+kubectl get secret mysecret -o yaml
+
+
+Using Secret
+
+Using Secrets as files from a Pod
+
+kubectl apply -f ./mount_secret_volume.yaml
+
+Projection of Secret keys to specific paths
+
