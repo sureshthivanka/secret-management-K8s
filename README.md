@@ -27,6 +27,10 @@ Projection of Secret keys to specific paths
 
 kubectl apply -f ./mount_secret_specific_volume.yaml
 
+Using Secrets as environment variables
+
+kubectl apply -f ./mount_as_environment_variables.yaml
+
 Check Secrets on the Pod
 
 kubectl exec mypod -it sh
