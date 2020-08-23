@@ -2,6 +2,10 @@
 
 Create Kubernetes Secrets
 
+Creating a Secret manually
+
+kubectl apply -f ./create_secret_manually.yaml
+
 Check Secrets
 
 kubectl get secrets
