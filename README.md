@@ -2,7 +2,7 @@
 
 ## Create Kubernetes Secrets
 
-Creating a Secret manually
+### Creating a Secret manually
 ```
 kubectl apply -f ./create_secret_manually.yaml
 ```
