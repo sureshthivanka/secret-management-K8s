@@ -44,4 +44,6 @@ kubectl apply -f ./mount_as_environment_variables.yaml
 
 ## Check Secrets on the Pod
 
+```
 kubectl exec mypod -it sh
+```
